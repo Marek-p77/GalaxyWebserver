@@ -1,4 +1,4 @@
-# 🌐 Basic Python Webserver v1.0
+# 🌐 Basic Python Webserver v1.1
 
 ### 📄 Popis
 
