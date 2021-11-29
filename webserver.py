@@ -1,20 +1,10 @@
-from http.server import HTTPServer, BaseHTTPRequestHandler
+import http.server   # Import modulu pro http server
+import socketserver  # Import modulu pro socket server
 
- 
-class Serv(BaseHTTPRequestHandler):
+PORT = 8080 # Port webserveru
+HOST = "localhost" # Hostname webserveru
+Handler = http.server.SimpleHTTPRequestHandler # Definování handleru
 
-    def do_GET(self):
-        if self.path == '/':
-            self.path = '/index.html' # Spouštěcí soubor
-        try:
-            file_to_open = open(self.path[1:]).read()
-            self.send_response(200)
-        except:
-            file_to_open = '[Error] Soubor nenalezen!' # Error zpráva
-            self.send_response(404)
-        self.end_headers()
-        self.wfile.write(bytes(file_to_open, 'utf-8')) # Encoding
-
-
-httpd = HTTPServer(('localhost', 8080), Serv) # Hostname + Port
-httpd.serve_forever()
+with socketserver.TCPServer((HOST, PORT), Handler) as httpd: # Použití handleru a samotného http serveru
+    print("[System] Webserver spuštěn na adrese", HOST + " a portu", PORT) # Zpráva v konzoli po spuštění
+    httpd.serve_forever() # Dlouhodobé spuštení webserveru
