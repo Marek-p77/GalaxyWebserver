@@ -1,8 +1,8 @@
-# 🌐 Basic Python Webserver v1.1
+# 🌐 GalaxyWebserver v1.3
 
 ### 📄 Popis
 
-Velmi jednoduchý webserver napsaný v Pythonu s hezkým menu (GUI). Tento webserver bohužel nepodporuje PHP. Port a hostname si můžete zvolit při spouštění. Slouží pouze pro ukázku, pro běžné užití doporučuji aplikaci XAMPP, nebo pro nejlepší naučení Apache webserver :) 
+Velmi jednoduchý webserver napsaný v Pythonu s hezkým menu (GUI). Tento webserver bohužel nepodporuje PHP. Port a hostname si můžete zvolit při spouštění. Slouží pouze pro ukázku, pro běžné užití doporučuji aplikaci XAMPP, nebo pro nejlepší naučení Apache webserver :)  Poznámka: starý název "Basic Python Webserver".
 
 ### ⚒️ Použití
 
