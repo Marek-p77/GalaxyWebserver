@@ -11,3 +11,5 @@ Stačí stáhnout soubor `webserver.py` a otevřít ho v Pythonu. Eventuelně m�
 💡 TIP: Pokud používáš PHP, je tu velice užitečný příkaz, který spustí PHP development webserver ->  `php -S localhost:8080` kde 8080 je port webserveru. Pozor! musí tam být velké S.
 
 ❗ POZOR! Je třeba mít nainstalovaný Python verze 3 a výše ve vašem PC včetně modulu PySimpleGUI!
+
+![](https://media.discordapp.net/attachments/865982224607871006/915258115526656000/GalaxySystems_28.11.2021_15_05_25.png)
