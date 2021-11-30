@@ -12,4 +12,4 @@ Stačí stáhnout soubor `webserver.py` a otevřít ho v Pythonu. Eventuelně m�
 
 ❗ POZOR! Je třeba mít nainstalovaný Python verze 3 a výše ve vašem PC včetně modulu PySimpleGUI!
 
-![](https://media.discordapp.net/attachments/865982224607871006/915258115526656000/GalaxySystems_28.11.2021_15_05_25.png)
+![](https://media.discordapp.net/attachments/865982224607871006/915258288403255326/GalaxyWebserver_30.11.2021_16_09_27.png)
