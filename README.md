@@ -12,7 +12,7 @@ Stačí stáhnout soubor `webserver.py` a otevřít ho v Pythonu. Eventuelně m�
 
 ❗ POZOR! Je třeba mít nainstalovaný Python verze 3 a výše ve vašem PC včetně modulu PySimpleGUI!
 
-Poznámka: Brzy vyjde verze 1.4, kde bude možné vygenerovat index.html a možnost vytovřit zálohu webu.
+Poznámka: Brzy vyjde verze 1.4, kde bude možné vygenerovat index.html a možnost vytovřit zálohu webu, GUI bude hezčí.
 
 ## Ukázka:
 
